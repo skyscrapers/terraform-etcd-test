@@ -22,8 +22,12 @@ variable "vpc_subnets_cidr_block" {
   default = "10.50.0.0/24,10.50.1.0/24,10.50.2.0/24"
 }
 
-variable "public_key_sam" {
-  description = "Public key sam"
+variable "public_key_name" {
+  default = "sam"
+}
+
+variable "public_key" {
+  description = "Public key"
   default = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQD2oK1fDJSbzEP92gyafd/tUkxKwXemVy3SOUkYrpbqASeyRu23RdMMa3z28rIWAYcqovnMyoVR2Q+9QwRp0ERseWAHsKa+hJDYokuUfZ23vyLKydgzElV4ZRHiJhg/cfdvUjoVCeFtL4EhGnLLU7dU4NpTg2m8TqVvOIzD7ck0lOIGalDe9iv1oFAqbbaZtk8DFcAW/8PsryOVmF+CH79RH9VvZM0Nw6lkeEj4rtX3THMiWe6IPqKfCEU66REXYBdAySOSy4BJPZRBa2YSnOybNdf1/j9geCKhr7eS4ysKn9jvdu7OKQELPIq0/xGR5ZhOhXeNtS9XhEwxEyY4IY/T sam@sambook"
 }
 

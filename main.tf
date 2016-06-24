@@ -20,8 +20,8 @@ module "sg_all" {
 }
 
 resource "aws_key_pair" "deployer" {
-  key_name = "sam_2"
-  public_key = "${var.public_key_sam}"
+  key_name = "${var.public_key_name}"
+  public_key = "${var.public_key}"
 }
 
 
