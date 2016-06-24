@@ -8,4 +8,4 @@ To run terraform, you need to supply it with a discovery token: https://github.c
 Don't forget to change the ssh key, or you won't have access.
 
 
-Feel free to improve this project.s
+Feel free to improve this project.
