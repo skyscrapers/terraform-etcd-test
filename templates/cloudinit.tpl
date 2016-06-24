@@ -5,7 +5,7 @@ coreos:
   update:
     reboot-strategy: etcd-lock
   etcd2:
-    discovery: https://discovery.etcd.io/ad6cc122e5d4e4efaf332c21afe4ddba
+    discovery: ${discovery_url}
     advertise-client-urls: http://$public_ipv4:2379
     initial-advertise-peer-urls: http://$private_ipv4:2380
     listen-client-urls: http://0.0.0.0:2379,http://0.0.0.0:4001
